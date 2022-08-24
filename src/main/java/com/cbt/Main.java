@@ -1,5 +1,9 @@
-package com.cbt;public class Main {
+package com.cbt;
+
+import static com.cbt.ClickByText.clickByText;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        clickByText("Vs");
     }
 }
